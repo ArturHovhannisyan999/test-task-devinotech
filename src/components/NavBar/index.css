@@ -1,0 +1,25 @@
+.nav {
+    padding: 10px 0;
+    width: 100%;
+    background-color: blueviolet;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav>div {
+    width: 200px;
+    height: 25px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav>div input {
+    width: 60%;
+}
+
+.nav>div button {
+    width: 40%;
+}

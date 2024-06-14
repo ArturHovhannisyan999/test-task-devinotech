@@ -1,0 +1,63 @@
+.current-weather {
+    min-height: 400px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 20px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.weathers {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.weather {
+    min-height: 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 14%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.current-weather-wrapper {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-weather-left {
+    width: 28%;
+    height: 280px;
+}
+
+.current-weather-right {
+    width: 28%;
+    height: 280px;
+}
+
+.bold-text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.by-time {
+    display: flex;
+}
+
+.celsius {
+    margin-left: 10px;
+}
